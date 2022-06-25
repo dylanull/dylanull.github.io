@@ -1,8 +1,5 @@
 .side-nav {
     display: flex;
-    position: absolute;
-    background-color: aqua;
-    height: 100%;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-evenly;
@@ -12,4 +9,12 @@
 
 ion-icon {
     font-size: 52px;
-  }
+}
+
+.mono {
+    font-family: 'Space Mono', monospace;
+}
+
+.ionic {
+    font-size: 24px;
+}
